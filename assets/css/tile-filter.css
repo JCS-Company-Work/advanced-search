@@ -45,3 +45,17 @@ li.show {
 .product-list>li.displaynoneclass {
 	display: none;
 }
+
+.no-results {
+	display: none;
+	text-align: center;
+    margin-top: 1rem;
+}
+
+/** Pagination styles **/
+.first-page-btn,
+.last-page-btn {
+    width: auto!important;           
+    padding: 0 1rem;
+    min-width: 2.7rem;
+}

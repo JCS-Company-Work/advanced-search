@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 // Constants
 define( 'ESAS_PATH', plugin_dir_path( __FILE__ ) );
 define( 'ESAS_URL',  plugin_dir_url( __FILE__ ) );
-define( 'ESAS_VERSION', '1.1' );
+define( 'ESAS_VERSION', '1.3.0' );
 
 // Composer autoload
 if ( file_exists( ESAS_PATH . 'vendor/autoload.php' ) ) {
